@@ -1,0 +1,22 @@
+.header {
+  background-color: #02488e;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  color: #000;
+  letter-spacing: 2px;
+  word-spacing: 8px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 15px 0;
+  }
+  
+  .header h1 {
+    font-size: 1.5rem;
+  }
+}

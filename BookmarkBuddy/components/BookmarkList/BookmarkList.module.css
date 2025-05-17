@@ -1,0 +1,22 @@
+.bookmarkList {
+  background-color: #555555;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.bookmarkList h2 {
+  color: #47CF73;
+  margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .bookmarkList {
+    padding: 15px;
+  }
+}
